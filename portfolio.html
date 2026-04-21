@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | JOURDAN TJAHJONO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="portfolio-page">
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- PAGE TRANSITION -->
+    <div class="page-transition">
+      <div class="transition-line"></div>
+      <div class="transition-line"></div>
+      <div class="transition-line"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <span class="logo-text">JOURDAN</span>
+          <span class="logo-accent">TJAHJONO</span>
+        </a>
+
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li>
+              <a href="portfolio.html" class="nav-link active">Portfolio</a>
+            </li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-right">
+          <a href="https://instagram.com" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-bg"></div>
+      <div class="mobile-menu-content">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-link">Home</a></li>
+          <li><a href="about.html" class="mobile-link">About</a></li>
+          <li><a href="portfolio.html" class="mobile-link">Portfolio</a></li>
+          <li><a href="services.html" class="mobile-link">Services</a></li>
+          <li><a href="contact.html" class="mobile-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+      <div class="page-header-bg">
+        <img
+          src="Media\Site-Media (25 of 35).JPG"
+          alt="Portfolio"
+        />
+        <div class="page-header-overlay"></div>
+      </div>
+      <div class="container">
+        <h1 class="page-title" data-split-text>Portfolio</h1>
+        <p class="page-subtitle">A collection of my terrible photography</p>
+      </div>
+    </section>
+
+    <!-- FILTERS -->
+    <section class="portfolio-filters-section">
+      <div class="container">
+        <div class="filters-wrapper">
+          <button class="filter-btn active" data-filter="all">All Work</button>
+          <button class="filter-btn" data-filter="motorsport">
+            Motorsport
+          </button>
+          <button class="filter-btn" data-filter="portrait">Portraits</button>
+          <button class="filter-btn" data-filter="landscape">Landscape</button>
+          <button class="filter-btn" data-filter="commercial">
+            Commercial
+          </button>
+          <button class="filter-btn" data-filter="events">Events</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="portfolio-gallery">
+      <div class="container">
+        <div class="gallery-grid">
+          <!-- Motorsport -->
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (1 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Merchandise</h3>
+                  <p>Aramco Aston Martin Racing F1 BOSS Polo</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="portrait">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (2 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Portraits</span>
+                  <h3>Street Portrait</h3>
+                  <p>Hidup Tukang Parkir</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (3 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>National Holiday</h3>
+                  <p>Independence Day</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="portrait">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (4 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Portrait</span>
+                  <h3>Street Portrait</h3>
+                  <p>Mother Nature</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="portrait">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (5 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Portrait</span>
+                  <h3>Self Portrait</h3>
+                  <p>Virtual Insanity</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (6 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Global Initiative</h3>
+                  <p>"No Play in the metal jungle"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (7 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Architecutral Forum</h3>
+                  <p>"Modern Brutalist Comfort"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (8 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Architecutral Forum</h3>
+                  <p>"Comfort in the dark warmth"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (9 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Motorsport</span>
+                  <h3>Mandaika Drift Team</h3>
+                  <p>"Drifting Itu Sehat"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (10 of 35).JPG"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Global Initiative</h3>
+                  <p>"Driving together through the darkest times"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (11 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Carnival of Stars</h3>
+                  <p>"City of stars, You never shined so brightly"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (12 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Carnival of Stars</h3>
+                  <p>"City of stars, There's so much that I can't see"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (13 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Global Initiative</h3>
+                  <p>"There in the bars, And through the smokescreen of the crowded restaurants, It's love"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (14 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>National Initiative</h3>
+                  <p>"The bright wheel of time"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (15 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Fragrance</h3>
+                  <p>"Smell the warmth through the light"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (16 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Fragrance</h3>
+                  <p>"Freeze the scent of the moment"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (17 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Fragrance</h3>
+                  <p>"The Warmth of scent, is the warmth of memory"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (18 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Custom Electric Guitars</h3>
+                  <p>"Slash through the mundane with a riff or three"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (19 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Motorsport</span>
+                  <h3>Superbike</h3>
+                  <p>"Brutalist Racing"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (20 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Motorsport</span>
+                  <h3>Street Racing</h3>
+                  <p>"Only the flame of the race illuminates the night"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (21 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Flowers</h3>
+                  <p>"Bloom in the moment"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (22 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Events</span>
+                  <h3>Summer Break</h3>
+                  <p>"Through the summer heat"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (23 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>Ocean</h3>
+                  <p>"Endless blue horizon"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (24 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Bar</h3>
+                  <p>"The bar is the home of the lonely.<br>
+                    Yes, they're sharing a drink they call loneliness"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (25 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landsscape</span>
+                  <h3>Jogger's path</h3>
+                  <p>"The morning sea's path"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="commercial">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (26 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Commercial</span>
+                  <h3>Spa</h3>
+                  <p>"Relax and rejuvenate"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (27 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>The Ruin's of Saint Paul</h3>
+                  <p>"A Portugese ruin in a Chinese state"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (28 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>The markets</h3>
+                  <p>"A single path, a hundred stories"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (29 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>Hong Kong</h3>
+                  <p>"One man, one city"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (30 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>China</h3>
+                  <p>"The path to a great leap forward"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (31 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Motorsport</span>
+                  <h3>Supercar</h3>
+                  <p>"Too fast for the eye, but not too fast for the heart"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (32 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>Tokyo Tower</h3>
+                  <p>"The red heart of Japan"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="landscape">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (33 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Landscape</span>
+                  <h3>Kaminarimon</h3>
+                  <p>"Where the sky meets the earth"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="motorsport">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (34 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Motorsport</span>
+                  <h3>Taxi</h3>
+                  <p>"Never travel alone when, their wheels spin for us all"</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="portrait">
+            <div class="gallery-image">
+              <img
+                src="Media\Site-Media (35 of 35).JPG"
+
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-category">Portrait</span>
+                  <h3>Akella</h3>
+                  <p>Look at this snob</p>
+                </div>
+                <div class="gallery-zoom">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="lightbox-content">
+        <img src="" alt="" class="lightbox-image" />
+        <div class="lightbox-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <span class="logo-text">JOURDAN</span>
+              <span class="logo-accent">TJAHJONO</span>
+            </a>
+            <p class="footer-tagline">
+              Capturing the thrill of the race and the beauty of life.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+            <a>Motorsport</a></br>
+            <a>Portraits</a></br>
+            <a>Commercial</a></br>
+            <a>Events</a>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Get In Touch</h4>
+            <p><i class="fas fa-envelope"></i> Jourdan09@dyatmika.org</p>
+            <p><i class="fas fa-phone"></i> +62 20 7946 0000</p>
+            <p><i class="fas fa-map-marker-alt"></i> Bali, ID</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Alex Norris Photography. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
